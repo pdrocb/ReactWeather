@@ -4,7 +4,7 @@ var express = require('express');
 
 var app = express();
 // GWorking with nodejs we can acces to the port using process.env.port
-cost PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(function (req, res, next) {
   if(req.headers['x-forwarded-proto'] === 'http') {
