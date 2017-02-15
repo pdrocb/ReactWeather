@@ -13,7 +13,7 @@ var Examples = () => {
             <Link to='/?location=Guadalajara'>Guadalajara, Jalisco</Link>
           </li>
           <li>
-            <Link to='/?location=Motherinlaw'>Mother in law Heart</Link>
+            <Link to='/?location=Villahermosa'>Villahermosa, Tabasco</Link>
           </li>
         </ol>
       </div>
